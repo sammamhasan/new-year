@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+.header{
+    background: url(../images/banner/banner1.png);
+    background-size: cover;
+    width: 1600px;
+    height: 808px;
+    left: 1600px;
+    top: 808px;
+
+}
+.banner-section{
+    display: flex;
+    text-align: right;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin: 131px 200px;
+}
+.content-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+.content-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.content-tips{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.skill-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.skills{
+    display: flex;
+    gap: 86px;
+    justify-content: space-around;
+    margin: 50px 200px;
+}
+.skill{
+    text-align: center;
+}
+.skill-name{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+.skill-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+.call{
+    text-align: left;
+    margin: 190px 200px;
+    padding: 59px 617px 59px 64px;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+}
+.btn{
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+}
+
+footer{
+    background-color: #151414;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-section{
+    gap: 331px;
+    display: flex;
+}
+.footer-content{
+    margin: 130px 230px;
+}
+.footer-content a{
+    text-decoration: none;
+}
